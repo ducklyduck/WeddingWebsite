@@ -1,17 +1,17 @@
 import { Layout } from 'antd';
-import './App.css';
+import Introduction from './components/Introduction';
 import Countdown from './components/Countdown';
 import Location from './components/Location';
 import DressCode from './components/DressCode';
 import Details from './components/Details';
-import Introduction from './components/Introduction';
+import './index.css'
 
 const { Content } = Layout;
 
 function App() {
   return (
     <Layout>
-      <Content style={{ background: '#ffffff', maxWidth: 800, margin: '0 auto' }}>
+      <Content>
         <section id="introduction">
           <Introduction />
         </section>

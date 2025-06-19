@@ -4,15 +4,16 @@ import 'leaflet/dist/leaflet.css';
 import type { LatLngTuple } from 'leaflet';
 
 function Location() {
-  const position: LatLngTuple = [56.871500483890664, 60.53087013571997]; // Дворец свадеб, Екатеринбург
+  const position: LatLngTuple = [56.83921751452974, 60.58370595277245]; // Шейнкмана 10, Ресторан Dieci, Екатеринбург
 
   return (
-    <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-      <Typography.Title className="section-title" level={3}>
+    <Typography className='section-location' style={{ textAlign: 'center', marginBottom: '40px' }}>
+      <Typography.Title className="section-title" >
         Место проведения
       </Typography.Title>
-      <Typography.Paragraph style={{ color: '#6b8768', fontWeight: 500 }}>
-        Дворец свадеб, Екатеринбург
+      <Typography.Paragraph className='location-paragraph section-paragraph' >
+        Город Екатеринбург, <br/>
+        Шейнкмана, 10, Ресторан Dieci
       </Typography.Paragraph>
       <MapContainer
         center={position}
@@ -26,7 +27,7 @@ function Location() {
           boxShadow: '0 4px 24px 0 #b5c4b133',
           border: '2px solid #d9e3d7',
           background: '#f8f9f6',
-          filter: 'grayscale(0.1) brightness(1.05) saturate(0.7)', // мягкий стиль
+          filter: 'sepia(0.15)  brightness(1.05) saturate(0.75)', // мягкий стиль
         }}
         scrollWheelZoom={false}
         dragging={true}
@@ -35,10 +36,10 @@ function Location() {
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         <Marker position={position}>
-          <Popup>Дворец свадеб, Екатеринбург</Popup>
+          <Popup>Шейнкмана 10, Ресторан Dieci, Екатеринбург</Popup>
         </Marker>
       </MapContainer>
-    </div>
+    </Typography>
   );
 }
 

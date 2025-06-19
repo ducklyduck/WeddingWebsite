@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import { useState, useEffect } from 'react';
-import { Typography } from 'antd';
+import { Flex, Typography } from 'antd';
 
 function Countdown() {
   const weddingDate = dayjs('2025-08-15');
@@ -25,12 +25,15 @@ function Countdown() {
   }, [calculateTimeLeft]);
 
   return (
-    <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-      <Typography.Title className="section-title" level={3}>Обратный Отсчет до Свадьбы</Typography.Title>
-      <Typography.Paragraph style={{ fontSize: '48px', color: '#6c68ad' }}>
-        {timeLeft.days} дней, {timeLeft.hours} часов, {timeLeft.minutes} минут, {timeLeft.seconds} секунд
+    <Flex vertical className='section-countdown' >
+      {/* <Flex vertical style={{alignItems: 'center', justifyItems: 'center', height: '100vh'}}> */}
+      <Typography.Title className="section-title countdown-title" >До свадьбы осталось...</Typography.Title>
+      <Typography.Paragraph className='countdown-paragraph section-paragraph' >
+        {timeLeft.days} дней, {timeLeft.hours} часов, {timeLeft.minutes} минут
+        {/* {timeLeft.seconds} секунд */}
       </Typography.Paragraph>
-    </div>
+      {/* </Flex> */}
+    </Flex>
   );
 }
 

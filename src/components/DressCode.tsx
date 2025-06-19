@@ -10,8 +10,8 @@ function DressCode() {
   // ];
 
   return (
-    <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-      <Typography.Title className="section-title" level={3}>
+    <Typography style={{ textAlign: 'center', marginBottom: '40px' }}>
+      <Typography.Title className="section-title" >
         Dress Code
       </Typography.Title>
       {/* <div
@@ -31,7 +31,10 @@ function DressCode() {
           />
         ))}
       </div> */}
-      <div
+      {/* <Typography.Paragraph className='dressCode-paragraph section-paragraph' >
+        Давайте добавим сколько сможем слов про Дресс-Код, а то как-то скудно получается
+      </Typography.Paragraph> */}
+      <div className='dressCode-shapesGroup'
         style={{
           display: 'flex',
           justifyContent: 'center',
@@ -40,7 +43,7 @@ function DressCode() {
         }}
       >
         {colors.map((color, index) => (
-          <div
+          <div className='dressCode-shape'
             key={index}
             style={{
               width: '100px',
@@ -51,7 +54,7 @@ function DressCode() {
           ></div>
         ))}
       </div>
-    </div>
+    </Typography>
   );
 }
 
