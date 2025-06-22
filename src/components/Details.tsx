@@ -3,7 +3,7 @@ import { Typography } from 'antd';
 function Details() {
   return (
     <Typography className='section-details' >
-      <Typography.Title className="section-title" >Детали и Пожелания</Typography.Title>
+      <Typography.Title className="section-title" >Детали и пожелания</Typography.Title>
       <Typography.Paragraph className='details-paragraph section-paragraph' >
         Не ломайте голову над подарком - мы будем рады Вашим пожеланиям в конвертах или ярким творческим подаркам
       </Typography.Paragraph>

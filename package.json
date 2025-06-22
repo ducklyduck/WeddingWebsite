@@ -3,20 +3,24 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://<ТВОЙ_GITHUB_НИК>.github.io/<ИМЯ_РЕПОЗИТОРИЯ>/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
     "antd": "^5.25.1",
     "dayjs": "^1.11.13",
+    "gh-pages": "^6.3.0",
     "leaflet": "^1.9.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-leaflet": "^5.0.0"
+    "react-leaflet": "^5.0.0" 
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

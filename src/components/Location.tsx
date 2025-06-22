@@ -7,7 +7,7 @@ function Location() {
   const position: LatLngTuple = [56.83921751452974, 60.58370595277245]; // Шейнкмана 10, Ресторан Dieci, Екатеринбург
 
   return (
-    <Typography className='section-location' style={{ textAlign: 'center', marginBottom: '40px' }}>
+    <Typography className='section-location' >
       <Typography.Title className="section-title" >
         Место проведения
       </Typography.Title>

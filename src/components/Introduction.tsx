@@ -3,7 +3,7 @@ import { Typography } from "antd";
 function Introduction() {
   return (
     <Typography className="section-introduction">
-      <Typography.Title className="introduction-title">Саша и Настя</Typography.Title>
+      <Typography.Title className="introduction-title section-title">Саша и Настя</Typography.Title>
       <Typography.Paragraph className="introduction-paragraph section-paragraph">
         Дорогие друзья!
         <br />

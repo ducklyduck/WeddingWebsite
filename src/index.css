@@ -1,15 +1,23 @@
+/* Generated Content */
+/* Position and Layout */
+/* Display and Visibility */
+/* Clipping */
+/* Animation */
+/* Box Model */
+/* Background */
+/* Typography */
+/* Other */
+/* Pseudo-Classes */
+
 #root {
-  width: 720px;
+  /* Box Model */
   margin: 0 auto;
-  text-align: center;
+  width: 720px;
 
-  /*  */
-  color-scheme: light dark;
-  background-color: #242424;
-
-  /* Text */
+  /* Typography */
   line-height: 1.5;
   font-weight: 400;
+  text-align: center;
   color: rgba(255, 255, 255, 0.87);
 
   /* Other */
@@ -21,6 +29,7 @@
 
 /* Исправление подключения шрифта Great Vibes */
 @font-face {
+  /* Typography */
   font-family: 'Great Vibes';
   src: url('../public/GreatVibes-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -28,162 +37,251 @@
 }
 
 body {
-  margin: 0;
+  /* Display and Visibility */
   display: flex;
-  place-items: center;
+
+  /* Box Model */
+  margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #e9e4ca;
+
+  /* Background */
+  background: #f8ffcc7e; /* 1-ый вариант */
+  background: #f0fecc7e; /* 2-ой вариант */
   /* background: #e9e4ca url('/src/assets/ivy2.png'); */
 }
 
 /* Общие стили для заголовков секций (кроме вступления) */
 body .section-title {
-  font-size: 48px;
-  color: #6c68ad;
-  font-family: 'Great Vibes', 'Montserrat', Arial, sans-serif;
-  margin-bottom: 24px;
+  /* Box Model */
   margin-top: 0;
+  margin-bottom: 24px;
+
+  /* Typography */
+  font-size: 48px;
+  /* font-family: 'Great Vibes', 'Montserrat', Arial, sans-serif; */
+  font-family: 'Great Vibes';
   text-align: center;
+  color: #6c68ad;
 }
 
 body .section-paragraph {
-  font-family: 'Great Vibes', 'Montserrat', Arial, sans-serif;
-  color: #44426c;
-  font-size: 32px;
-
-  max-width: 660px;
+  /* Position and Layout */
   justify-self: center;
+
+  /* Box Model */
+  max-width: 660px;
+
+  /* Typography */
+  font-size: 32px;
+  /* font-family: 'Great Vibes', 'Montserrat', Arial, sans-serif; */
+  font-family: 'Great Vibes';
+  color: #44426c;
 }
 
 body .section-introduction {
-  min-height: 360px;
+  /* Box Model */
   width: 100%;
+  min-height: 360px;
+
+  /* Background */
   background:
-    linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.6) 20%, rgba(75, 72, 72, 0.5) 50%, rgba(75, 72, 72, 0.7) 70%, rgba(75, 72, 72, 1) 100%), url(/src/assets/stock-3.jpg) center/cover no-repeat;
+    linear-gradient( to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 7%, rgba(245, 245, 245, 0.6) 20%, rgba(75, 72, 72, 0.5) 50%, rgba(75, 72, 72, 0.7) 70%, rgba(75, 72, 72, 0.9) 100%),
+    url(/src/assets/stock-3.jpg) center/cover no-repeat;
 }
 
 body .introduction-title {
-  font-size: 72px;
-  font-family: 'Great Vibes', 'Montserrat', Arial, sans-serif;
-  color: #becfd9;
+  /* Box Model */
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 15px;
+
+  /* Typography */
+  font-size: 72px;
+  color: #becfd9;
 }
 
 body .introduction-paragraph {
+  /* Position and Layout */
+  justify-self: center;
+
+  /* Display and Visibility */
+  display: flex;
+
+  /* Box Model */
+  margin: 20px 0 0px;
   max-width: 620px;
+  padding-bottom: 40px;
+
+  /* Typography */
   font-weight: 500;
   font-size: 34px;
-  margin: 0px 20px 20px 20px;
-  padding-bottom: 40px;
-  color: #becfd9;
-  margin-top: 20;
-  display: flex;
-  justify-self: center;
+  color: #6c68ad; /* 1-ый вариант*/
+  color: #becfd9; /* 2-ой вариант*/
+
+  background: linear-gradient( rgba(240, 200, 240, 1) 0%, rgba(200, 200, 240, 1) 100% ); /* 3-ий вариант*/
+  background: linear-gradient( #becfd9 0%, #8b9ca5 40%, #3f3b6a 50%, #2c2a49 100% ); /* 4-ый вариант*/
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 body .section-countdown {
-  min-height: 460px;
+  /* Position and Layout */
   position: relative;
+
+  /* Display and Visibility */
   align-items: center;
   justify-content: space-between;
+
+  /* Box Model */
+  min-height: 460px;
+
+  /* Background */
   background:
-    linear-gradient(to top, rgba(170, 146, 222, 0.76) 0%, rgba(222, 201, 146, 0.1) 15%, rgba(222, 201, 146, 0.1) 70%, rgba(165, 146, 222, 0.96) 100%), url(/src/assets/sasha+nastya.jpg) center/cover no-repeat
+    linear-gradient( to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 15%, rgba(245, 245, 245, 0.3) 35%, rgba(245, 245, 245, 0.1) 50%, rgba(245, 245, 245, 0.3) 70%, rgba(245, 245, 245, 0.6) 85%, rgba(245, 245, 245, 0.9) 100%),
+    url(/src/assets/sasha+nastya.jpg) center/cover no-repeat;
+  filter: grayscale(0.9) saturate(1.9);
 }
 
+/*
+body .section-countdown::after {
+min-height: 460px;
+position: relative;
+align-items: center;
+justify-content: space-between;
+filter: grayscale(0.9) saturate(1.9);
+background:
+  linear-gradient(to top, rgba(75, 72, 72, 0.2) 0%, rgba(75, 72, 72, 0.5) 15%, rgba(222, 201, 146, 0.1) 70%, rgba(75, 72, 72, 0.5) 100%), 
+  url(/src/assets/sasha+nastya.jpg) center/cover no-repeat
+} */
+
 body .countdown-title {
+  /* Box Model */
   margin-top: 20px;
 
+  /* Background */
+  filter: grayscale(0) saturate(10);
+
+  /* Typography */
   font-size: 72px;
-  color: #9c99d1;
+  color: #44426c;
+  /* color: #9c99d1; */
 }
 
 body .countdown-paragraph {
+  /* Box Model */
   margin-bottom: 10px;
 
+  /* Background */
+  filter: grayscale(0) saturate(10);
+
+  /* Typography */
   font-size: 72px;
-  color: #9c99d1;
+  color: #44426c;
 }
 
 body .section-location {
+  /* Box Model */
+  margin-bottom: 40px;
   margin-top: 40px;
+
+  /* Typography */
+  text-align: center;
+}
+
+body .section-dressCode {
+  /* Box Model */
+  margin-bottom: 40px;
+
+  /* Typography */
+  text-align: center;
 }
 
 body .dressCode-shapesGroup {
+  /* Display and Visibility */
   display: flex;
   justify-content: center;
-  gap: '10px';
-  margin-top: '20px';
+
+  /* Box Model */
+  gap: 10px;
 }
 
 body .dressCode-shape {
+  /* Box Model */
+  border: #838a8e 1px solid;
+  border-radius: 50%;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  background-color: color;
 }
 
-/* 
+/*
 body .details-paragraph {
-  max-width: 660px;
-  font-size: 32px;
-  justify-self: center;
+max-width: 660px;
+font-size: 32px;
+justify-self: center;
 
-  color: #44426c;
+color: #44426c;
 } */
 
 body a.details-button {
-  font-weight: 500;
-  color: #10111d;
-  text-decoration: inherit;
+  /* Display and Visibility */
   display: inline-block;
 
+  /* Animation */
   transition-duration: 0.35s;
 
-  margin-top: 20px;
-  margin-bottom: 40px;
-  padding: 10px 20px;
-  background-color: #7e9e7b;
-  color: #d6d5f8;
+  /* Box Model */
+  margin: 20px 0 40px 0;
   border-radius: 5px;
+  padding: 10px 20px;
+
+  /* Background */
+  background-color: #7e9e7b;
+
+  /* Typography */
+  font-weight: 500;
   text-decoration: none;
+  color: #504e7e;
 }
 
 body a.details-button:hover {
+  /* Animation */
+  /* Box Model */
   box-shadow: 0px 5px 10px 5px #595467;
 
+  /* Background */
   background-color: #698867;
 
+  /* Typography */
   color: #d6d5f8;
 }
 
 /* .section-countdown::before {
-   position: relative;
-  background: url('/src/assets/nastya.png') left bottom no-repeat;
-  background-size: auto 70%;
-  overflow: hidden;
-  transform: rotate(40deg);
-  content: '';
-  position: absolute;
-  bottom: -380px;
-  left: 210px;
-  right: 0;
-  height: 50%;
-  background: linear-gradient(to top, #e8e0b7, rgba(232, 224, 183, 0));
+  position: relative;
+background: url('/src/assets/nastya.png') left bottom no-repeat;
+background-size: auto 70%;
+overflow: hidden;
+transform: rotate(40deg);
+content: '';
+position: absolute;
+bottom: -380px;
+left: 210px;
+right: 0;
+height: 50%;
+background: linear-gradient(to top, #e8e0b7, rgba(232, 224, 183, 0));
 }
 .section-countdown::after {
-   position: relative;
-  background: url('/src/assets/sasha.png') right bottom no-repeat;
-  background-size: auto 67%;
-  overflow: hidden;
-  transform: rotate(-40deg);
-  content: '';
-  position: absolute;
-  bottom: -400px;
-  left: 0px;
-  right: 320px;
-  height: 50%;
-  background: linear-gradient(to top, #e8e0b7, rgba(232, 224, 183, 0));
+  position: relative;
+background: url('/src/assets/sasha.png') right bottom no-repeat;
+background-size: auto 67%;
+overflow: hidden;
+transform: rotate(-40deg);
+content: '';
+position: absolute;
+bottom: -400px;
+left: 0px;
+right: 320px;
+height: 50%;
+background: linear-gradient(to top, #e8e0b7, rgba(232, 224, 183, 0));
 } */
