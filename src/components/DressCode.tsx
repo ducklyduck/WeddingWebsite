@@ -31,9 +31,9 @@ function DressCode() {
           />
         ))}
       </div> */}
-      <Typography.Paragraph className='dressCode-paragraph section-paragraph' >
+      {/* <Typography.Paragraph className='dressCode-paragraph section-paragraph' >
         Давайте добавим сколько сможем слов про Дресс-Код, а то как-то скудно получается
-      </Typography.Paragraph>
+      </Typography.Paragraph> */}
       <div className='dressCode-shapesGroup' >
         {colors.map((color, index) => (
           <div className='dressCode-shape'

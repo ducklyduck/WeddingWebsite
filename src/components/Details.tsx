@@ -18,6 +18,7 @@ function Details() {
       >
         Просим заполнить Форму
       </a>
+      <div className='details-composition'> </div>
     </Typography>
   );
 }

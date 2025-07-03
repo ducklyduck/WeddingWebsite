@@ -79,6 +79,7 @@ body .section-paragraph {
   color: #44426c;
 }
 
+/* INTRODUCTION */
 body .section-introduction {
   /* Box Model */
   width: 100%;
@@ -99,6 +100,8 @@ body .introduction-title {
   /* Typography */
   font-size: 72px;
   color: #becfd9;
+  text-shadow: 1px 1px 2px rgb(68, 57, 75);
+  color: #becfd9; /* 2-ой вариант*/
 }
 
 body .introduction-paragraph {
@@ -116,16 +119,18 @@ body .introduction-paragraph {
   /* Typography */
   font-weight: 500;
   font-size: 34px;
-  color: #6c68ad; /* 1-ый вариант*/
+  text-shadow: 1px 1px 2px rgb(193, 158, 213);
+  text-shadow: 1px 1px 2px rgb(68, 57, 75);
   color: #becfd9; /* 2-ой вариант*/
 
-  background: linear-gradient( rgba(240, 200, 240, 1) 0%, rgba(200, 200, 240, 1) 100% ); /* 3-ий вариант*/
-  background: linear-gradient( #becfd9 0%, #8b9ca5 40%, #3f3b6a 50%, #2c2a49 100% ); /* 4-ый вариант*/
-  -webkit-background-clip: text;
+  /* background: linear-gradient( rgba(240, 200, 240, 1) 0%, rgba(200, 200, 240, 1) 100% ); 3-ий вариант */
+  /* background: linear-gradient( #becfd9 0%, #8b9ca5 40%, #3f3b6a 50%, #2c2a49 100% ); 4-ый вариант */
+  /* -webkit-background-clip: text;
           background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
+/* COUNTDOWN */
 body .section-countdown {
   /* Position and Layout */
   position: relative;
@@ -166,6 +171,8 @@ body .countdown-title {
   /* Typography */
   font-size: 72px;
   color: #44426c;
+  text-shadow: 1px 1px 2px rgb(68, 57, 75);
+  color: #becfd9; /* 2-ой вариант*/
   /* color: #9c99d1; */
 }
 
@@ -179,8 +186,11 @@ body .countdown-paragraph {
   /* Typography */
   font-size: 72px;
   color: #44426c;
+  text-shadow: 1px 1px 2px rgb(68, 57, 75);
+  color: #becfd9; /* 2-ой вариант*/
 }
 
+/* LOCATION */
 body .section-location {
   /* Box Model */
   margin-bottom: 40px;
@@ -190,6 +200,7 @@ body .section-location {
   text-align: center;
 }
 
+/* DRESSCODE */
 body .section-dressCode {
   /* Box Model */
   margin-bottom: 40px;
@@ -204,32 +215,25 @@ body .dressCode-shapesGroup {
   justify-content: center;
 
   /* Box Model */
-  gap: 10px;
+  gap: 4px;
 }
 
 body .dressCode-shape {
   /* Box Model */
-  border: #838a8e 1px solid;
+  /* border: #838a8e 1px solid; */
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  box-shadow: #595467 0px 2px 3px 1px;
+  width: 85px;
+  height: 85px;
 }
 
-/*
-body .details-paragraph {
-max-width: 660px;
-font-size: 32px;
-justify-self: center;
-
-color: #44426c;
-} */
-
+/* DETAILS */
 body a.details-button {
   /* Display and Visibility */
   display: inline-block;
 
   /* Animation */
-  transition-duration: 0.35s;
+  transition-duration: 0.45s;
 
   /* Box Model */
   margin: 20px 0 40px 0;
@@ -237,7 +241,7 @@ body a.details-button {
   padding: 10px 20px;
 
   /* Background */
-  background-color: #7e9e7b;
+  background-color: #92bbd3;
 
   /* Typography */
   font-weight: 500;
@@ -251,10 +255,25 @@ body a.details-button:hover {
   box-shadow: 0px 5px 10px 5px #595467;
 
   /* Background */
-  background-color: #698867;
+  background-color: #5c87ba;
 
   /* Typography */
   color: #d6d5f8;
+}
+
+body .details-composition {
+    /* Position and Layout */
+  justify-self: center;
+
+  /* Box Model */
+  height: 400px;
+  width: 600px;
+
+  /* Background */
+  background:
+    /* linear-gradient( to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 15%, rgba(245, 245, 245, 0.3) 35%, rgba(245, 245, 245, 0.1) 50%, rgba(245, 245, 245, 0.3) 70%, rgba(245, 245, 245, 0.6) 85%, rgba(245, 245, 245, 0.9) 100%), */
+    url(/src/assets/heart-composition_BW.png) center/cover no-repeat;
+  /* filter: grayscale(0.9) saturate(1.9); */
 }
 
 /* .section-countdown::before {
