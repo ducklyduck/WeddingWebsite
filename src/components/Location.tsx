@@ -2,9 +2,20 @@ import { Typography } from 'antd';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { LatLngTuple } from 'leaflet';
+import L from 'leaflet'
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 
 function Location() {
   const position: LatLngTuple = [56.83921751452974, 60.58370595277245]; // Шейнкмана 10, Ресторан Dieci, Екатеринбург
+  
+
+  const DefaultIcon = L.icon({
+      iconUrl: icon,
+      shadowUrl: iconShadow
+  });
+
+  L.Marker.prototype.options.icon = DefaultIcon;
 
   return (
     <Typography className='section-location' >

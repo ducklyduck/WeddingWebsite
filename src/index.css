@@ -31,7 +31,9 @@
 @font-face {
   /* Typography */
   font-family: 'Great Vibes';
-  src: url('../public/GreatVibes-Regular.ttf') format('truetype');
+  src: url('../public/PG_IsadoraCyrPro-Regular.ttf') format('truetype');
+  /* src: url('../public/GreatVibes-Regular.ttf') format('truetype'); */
+  /* src: url('../public/AmpirDeco.ttf') format('truetype'); */
   font-weight: normal;
   font-style: normal;
 }
@@ -59,7 +61,6 @@ body .section-title {
 
   /* Typography */
   font-size: 48px;
-  /* font-family: 'Great Vibes', 'Montserrat', Arial, sans-serif; */
   font-family: 'Great Vibes';
   text-align: center;
   color: #6c68ad;
@@ -74,7 +75,6 @@ body .section-paragraph {
 
   /* Typography */
   font-size: 32px;
-  /* font-family: 'Great Vibes', 'Montserrat', Arial, sans-serif; */
   font-family: 'Great Vibes';
   color: #44426c;
 }
@@ -215,14 +215,14 @@ body .dressCode-shapesGroup {
   justify-content: center;
 
   /* Box Model */
-  gap: 4px;
+  gap: 8px;
 }
 
 body .dressCode-shape {
   /* Box Model */
   /* border: #838a8e 1px solid; */
   border-radius: 50%;
-  box-shadow: #595467 0px 2px 3px 1px;
+  box-shadow: #595467 2px 3px 3px 3px;
   width: 85px;
   height: 85px;
 }
