@@ -1,7 +1,7 @@
 {
   "name": "weddingwebsite",
   "private": true,
-  "version": "0.9.0",
+  "version": "0.9.5",
   "type": "module",
   "homepage": "https://ducklyduck.github.io/WeddingWebsite/",
   "scripts": {

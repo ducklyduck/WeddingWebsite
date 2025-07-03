@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/WeddingWebsite/', // добавьте эту строку!
+  // base: '/WeddingWebsite/', // добавьте эту строку!
   plugins: [react()],
   css: {
     preprocessorOptions: {
