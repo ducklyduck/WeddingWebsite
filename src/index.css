@@ -239,13 +239,13 @@ body a.details-button {
   /* Box Model */
   margin: 20px 0 40px 0;
   border-radius: 5px;
-  padding: 20px 30px;
+  padding: 10px 20px;
 
   /* Background */
   background-color: #92bbd3;
 
   /* Typography */
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 500;
   text-decoration: none;
   color: #504e7e;
@@ -296,5 +296,56 @@ body .details-composition {
     margin-left: -8px; /* компенсирует padding у #root */
     margin-right: -8px;
     box-sizing: border-box;
+  }
+
+  /* Адаптивные стили для элементов с фиксированной шириной и крупным шрифтом */
+  .section-title,
+  .countdown-title,
+  .introduction-title {
+    font-size: 32px !important;
+  }
+
+  .section-paragraph,
+  .countdown-paragraph,
+  .introduction-paragraph {
+    font-size: 20px !important;
+    max-width: 98vw;
+    padding: 0 2vw;
+  }
+
+  .details-button {
+    font-size: 28px !important;
+    padding: 12px 16px;
+  }
+
+  .dressCode-shape {
+    width: 48px;
+    height: 48px;
+  }
+
+  .section-countdown {
+    min-height: 220px;
+    background-size: cover;
+  }
+
+  .section-introduction {
+    min-height: 180px;
+    background-size: cover;
+  }
+
+  .section-paragraph,
+  .introduction-paragraph {
+    max-width: 98vw;
+  }
+
+  .section-details {
+    max-width: 98vw;
+    padding: 0 2vw;
+  }
+
+  .section-location,
+  .section-dressCode {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
