@@ -12,7 +12,7 @@ function Details() {
       </Typography.Paragraph> */}
       <a
         className='details-button'
-        href="https://forms.gle/example-google-form"
+        href="https://forms.gle/kSDyzvYqF5x1YmQM6"
         target="_blank"
         rel="noopener noreferrer"
       >
