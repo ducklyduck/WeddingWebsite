@@ -32,8 +32,8 @@
 @font-face {
   /* Typography */
   font-family: 'Great Vibes';
-  src: url('../public/PG_IsadoraCyrPro-Regular.ttf') format('truetype');
-  /* src: url('../public/GreatVibes-Regular.ttf') format('truetype'); */
+  /* src: url('../public/PG_IsadoraCyrPro-Regular.ttf') format('truetype'); */
+  src: url('../public/GreatVibes-Regular.ttf') format('truetype');
   /* src: url('../public/AmpirDeco.ttf') format('truetype'); */
   font-weight: normal;
   font-style: normal;
@@ -229,7 +229,7 @@ body .dressCode-shape {
 }
 
 /* DETAILS */
-body a.detai  ls-button {
+body a.details-button {
   /* Display and Visibility */
   display: inline-block;
 
