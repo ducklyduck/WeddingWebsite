@@ -49,8 +49,10 @@ body {
   min-height: 100vh;
 
   /* Background */
-  background: #f8ffcc7e; /* 1-ый вариант */
-  background: #f0fecc7e; /* 2-ой вариант */
+  background: #f8ffcc7e;
+  /* 1-ый вариант */
+  background: #f0fecc7e;
+  /* 2-ой вариант */
   /* background: #e9e4ca url('/src/assets/ivy2.png'); */
 }
 
@@ -88,7 +90,7 @@ body .section-introduction {
 
   /* Background */
   background:
-    linear-gradient( to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 7%, rgba(245, 245, 245, 0.6) 20%, rgba(75, 72, 72, 0.5) 50%, rgba(75, 72, 72, 0.7) 70%, rgba(75, 72, 72, 0.9) 100%),
+    linear-gradient(to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 7%, rgba(245, 245, 245, 0.6) 20%, rgba(75, 72, 72, 0.5) 50%, rgba(75, 72, 72, 0.7) 70%, rgba(75, 72, 72, 0.9) 100%),
     url(/src/assets/stock-3.jpg) center/cover no-repeat;
 }
 
@@ -102,7 +104,8 @@ body .introduction-title {
   font-size: 72px;
   color: #becfd9;
   text-shadow: 1px 1px 2px rgb(68, 57, 75);
-  color: #becfd9; /* 2-ой вариант*/
+  color: #becfd9;
+  /* 2-ой вариант*/
 }
 
 body .introduction-paragraph {
@@ -122,7 +125,8 @@ body .introduction-paragraph {
   font-size: 34px;
   text-shadow: 1px 1px 2px rgb(193, 158, 213);
   text-shadow: 1px 1px 2px rgb(68, 57, 75);
-  color: #becfd9; /* 2-ой вариант*/
+  color: #becfd9;
+  /* 2-ой вариант*/
 
   /* background: linear-gradient( rgba(240, 200, 240, 1) 0%, rgba(200, 200, 240, 1) 100% ); 3-ий вариант */
   /* background: linear-gradient( #becfd9 0%, #8b9ca5 40%, #3f3b6a 50%, #2c2a49 100% ); 4-ый вариант */
@@ -145,7 +149,7 @@ body .section-countdown {
 
   /* Background */
   background:
-    linear-gradient( to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 15%, rgba(245, 245, 245, 0.3) 35%, rgba(245, 245, 245, 0.1) 50%, rgba(245, 245, 245, 0.3) 70%, rgba(245, 245, 245, 0.6) 85%, rgba(245, 245, 245, 0.9) 100%),
+    linear-gradient(to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 15%, rgba(245, 245, 245, 0.3) 35%, rgba(245, 245, 245, 0.1) 50%, rgba(245, 245, 245, 0.3) 70%, rgba(245, 245, 245, 0.6) 85%, rgba(245, 245, 245, 0.9) 100%),
     url(/src/assets/sasha+nastya.jpg) center/cover no-repeat;
   filter: grayscale(0.9) saturate(1.9);
 }
@@ -173,7 +177,8 @@ body .countdown-title {
   font-size: 72px;
   color: #44426c;
   text-shadow: 1px 1px 2px rgb(68, 57, 75);
-  color: #becfd9; /* 2-ой вариант*/
+  color: #becfd9;
+  /* 2-ой вариант*/
   /* color: #9c99d1; */
 }
 
@@ -188,7 +193,8 @@ body .countdown-paragraph {
   font-size: 72px;
   color: #44426c;
   text-shadow: 1px 1px 2px rgb(68, 57, 75);
-  color: #becfd9; /* 2-ой вариант*/
+  color: #becfd9;
+  /* 2-ой вариант*/
 }
 
 /* LOCATION */
@@ -245,7 +251,8 @@ body a.details-button {
   background-color: #92bbd3;
 
   /* Typography */
-  font-size: 42px;
+  font-family: 'Great Vibes';
+  src: url('../public/GreatVibes-Regular.ttf') format('truetype');
   font-weight: 500;
   text-decoration: none;
   color: #504e7e;
@@ -264,7 +271,7 @@ body a.details-button:hover {
 }
 
 body .details-composition {
-    /* Position and Layout */
+  /* Position and Layout */
   justify-self: center;
 
   /* Box Model */
@@ -288,64 +295,77 @@ body .details-composition {
     padding: 0 8px;
     box-sizing: border-box;
   }
-  
-  .details-composition {
+
+  body .details-composition {
     width: 100vw;
     max-width: 100vw;
-    height: 200px; /* уменьшите высоту для мобильных, если нужно */
-    margin-left: -8px; /* компенсирует padding у #root */
+    height: 200px;
+    /* уменьшите высоту для мобильных, если нужно */
+    margin-left: -8px;
+    /* компенсирует padding у #root */
     margin-right: -8px;
     box-sizing: border-box;
   }
 
   /* Адаптивные стили для элементов с фиксированной шириной и крупным шрифтом */
-  .section-title,
-  .countdown-title,
-  .introduction-title {
-    font-size: 32px !important;
+  body .section-title,
+  body .countdown-title,
+  body .introduction-title {
+    font-size: 40px !important;
   }
 
-  .section-paragraph,
-  .countdown-paragraph,
-  .introduction-paragraph {
-    font-size: 20px !important;
+  body .section-paragraph,
+  body .countdown-paragraph,
+  body .introduction-paragraph {
+    font-size: 36px !important;
     max-width: 98vw;
     padding: 0 2vw;
   }
 
-  .details-button {
+  body .countdown-paragraph,
+  body .countdown-title {
+    font-size: 48px !important;
+  }
+
+  body .details-button {
     font-size: 28px !important;
-    padding: 12px 16px;
+    padding: 10px 12px;
   }
 
-  .dressCode-shape {
-    width: 48px;
-    height: 48px;
+  body .dressCode-shape {
+    width: 42px;
+    height: 42px;
   }
 
-  .section-countdown {
+  body .section-countdown {
     min-height: 220px;
     background-size: cover;
   }
 
-  .section-introduction {
+  body .section-introduction {
     min-height: 180px;
     background-size: cover;
   }
 
-  .section-paragraph,
-  .introduction-paragraph {
+  body .section-paragraph,
+  body .introduction-paragraph {
     max-width: 98vw;
   }
 
-  .section-details {
+  body .section-details {
     max-width: 98vw;
     padding: 0 2vw;
   }
 
-  .section-location,
-  .section-dressCode {
+  body .section-location,
+  body .section-dressCode {
     margin-bottom: 20px;
     margin-top: 20px;
   }
+
+  body .details-composition {
+    height: 60vw;
+    width: 85vw;
+  }
+
 }
