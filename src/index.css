@@ -117,7 +117,7 @@ body .introduction-paragraph {
 
   /* Box Model */
   margin: 20px 0 0px;
-  max-width: 620px;
+  max-width: 660px;
   padding-bottom: 40px;
 
   /* Typography */
@@ -290,7 +290,7 @@ body .details-composition {
 
 @media (max-width: 720px) {
   #root {
-    width: 100vw;
+    width: 102vw;
     max-width: 100vw;
     margin: 0;
     padding: 0 8px;
@@ -334,8 +334,8 @@ body .details-composition {
   }
 
   body .dressCode-shape {
-    width: 44px;
-    height: 44px;
+    width: 52px;
+    height: 52px;
   }
 
   body .section-countdown {
