@@ -254,6 +254,7 @@ body a.details-button {
   font-family: 'Great Vibes';
   src: url('../public/GreatVibes-Regular.ttf') format('truetype');
   font-weight: 500;
+  font-size: 36px;
   text-decoration: none;
   color: #504e7e;
 }
@@ -317,14 +318,14 @@ body .details-composition {
   body .section-paragraph,
   body .countdown-paragraph,
   body .introduction-paragraph {
-    font-size: 36px !important;
+    font-size: 32px !important;
     max-width: 98vw;
     padding: 0 2vw;
   }
 
   body .countdown-paragraph,
   body .countdown-title {
-    font-size: 48px !important;
+    font-size: 48px;
   }
 
   body .details-button {
@@ -333,8 +334,8 @@ body .details-composition {
   }
 
   body .dressCode-shape {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
   }
 
   body .section-countdown {
