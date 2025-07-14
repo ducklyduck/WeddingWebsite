@@ -309,22 +309,18 @@ body .details-composition {
   }
 
   /* Адаптивные стили для элементов с фиксированной шириной и крупным шрифтом */
-  body .section-title,
-  body .countdown-title,
-  body .introduction-title {
+  body .section-title {
     font-size: 40px !important;
   }
 
-  body .section-paragraph,
-  body .countdown-paragraph,
-  body .introduction-paragraph {
+  body .section-paragraph {
     font-size: 32px !important;
     max-width: 98vw;
     padding: 0 2vw;
   }
 
-  body .countdown-paragraph,
-  body .countdown-title {
+  body .section-paragraph.countdown-paragraph,
+  body .section-title.countdown-title {
     font-size: 48px !important;
   }
 
