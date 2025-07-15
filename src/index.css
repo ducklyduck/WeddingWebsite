@@ -241,10 +241,12 @@ body .dateTime-paragraph {
 }
 
 body .dateTime-calendar {
+  /* Position and Layout */
+  justify-self: center;
+
   /* Box Model */
-  margin: 20px auto 0 auto;
-  width: 100%;
-  max-width: 660px;
+  height: 400px;
+  width: 600px;
 
   /* Display and Visibility */
   display: flex;
