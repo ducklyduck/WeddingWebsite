@@ -5,6 +5,7 @@ import Location from './components/Location';
 import DressCode from './components/DressCode';
 import Details from './components/Details';
 import './index.css'
+import DateTime from './components/DateTime';
 
 const { Content } = Layout;
 
@@ -20,6 +21,9 @@ function App() {
         </section>
         <section id="location">
           <Location />
+        </section>
+        <section id='date-time'>
+          <DateTime />
         </section>
         <section id="dress-code">
           <DressCode />

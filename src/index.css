@@ -409,6 +409,9 @@ body .details-composition {
   }
 
   body .details-composition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 60vw;
     width: 85vw;
   }
