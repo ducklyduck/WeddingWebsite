@@ -27,7 +27,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 /* Исправление подключения шрифта Great Vibes */
 @font-face {
   /* Typography */
@@ -52,6 +51,7 @@ body {
   background: #f8ffcc7e;
   /* 1-ый вариант */
   background: #f0fecc7e;
+  background-color: rgba(255, 255, 255, 0.87);
   /* 2-ой вариант */
   /* background: #e9e4ca url('/src/assets/ivy2.png'); */
 }
@@ -205,6 +205,53 @@ body .section-location {
 
   /* Typography */
   text-align: center;
+}
+
+/* DATETIME */
+body .section-dateTime {
+  /* Box Model */
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+  /* Typography */
+  text-align: center;
+}
+
+body .dateTime-title {
+  /* Box Model */
+  margin-top: 0;
+  margin-bottom: 24px;
+
+  /* Typography */
+  font-size: 48px;
+  text-align: center;
+  color: #6c68ad;
+}
+
+body .dateTime-paragraph {
+  /* Position and Layout */
+  justify-self: center;
+
+  /* Box Model */
+  /* max-width: 660px; */
+
+  /* Typography */
+  font-size: 32px;
+  color: #44426c;
+}
+
+body .dateTime-calendar {
+  /* Box Model */
+  margin: 20px auto 0 auto;
+  width: 100%;
+  max-width: 660px;
+
+  /* Display and Visibility */
+  display: flex;
+  justify-content: center;
+  background: 
+    /* linear-gradient(to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 15%, rgba(245, 245, 245, 0.3) 35%, rgba(245, 245, 245, 0.1) 50%, rgba(245, 245, 245, 0.3) 70%, rgba(245, 245, 245, 0.6) 85%, rgba(245, 245, 245, 0.9) 100%), */
+    url(/src/assets/calendar.png) center/cover no-repeat;
 }
 
 /* DRESSCODE */

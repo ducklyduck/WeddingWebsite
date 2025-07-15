@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Flex, Typography } from 'antd';
 
 function Countdown() {
-  const weddingDate = dayjs('2025-08-15');
+  const weddingDate = dayjs('2025-08-15 15:30:00'); // Задайте дату свадьбы в формате 'YYYY-MM-DD HH:mm:ss'
   const calculateTimeLeft = useCallback(() => {
     const now = dayjs();
     const diff = weddingDate.diff(now);

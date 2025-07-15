@@ -23,8 +23,8 @@ function Location() {
         Место проведения
       </Typography.Title>
       <Typography.Paragraph className='location-paragraph section-paragraph' >
-        Город Екатеринбург, <br/>
-        Шейнкмана, 10, Ресторан Dieci
+        город Екатеринбург, ул. Шейнкмана, 10 <br/> 
+        ресторан "Dieci"
       </Typography.Paragraph>
       <MapContainer
         center={position}
