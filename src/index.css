@@ -223,7 +223,7 @@ body .dateTime-title {
   margin-bottom: 20px;
 
   /* Typography */
-  font-size: 48px;
+  font-size: 54px;
   text-align: center;
   color: #6c68ad;
 }
@@ -236,8 +236,8 @@ body .dateTime-paragraph {
   /* max-width: 660px; */
 
   /* Typography */
-  font-size: 48px;
-  color: #44426c;
+  font-size: 54px;
+  color: #6c68ad;
 }
 
 body .dateTime-calendar {
@@ -245,7 +245,7 @@ body .dateTime-calendar {
   justify-self: center;
 
   /* Box Model */
-  height: 400px;
+  height: 500px;
   width: 700px;
 
   /* Display and Visibility */
@@ -372,9 +372,9 @@ body .details-composition {
     font-size: 48px !important;
   }
 
-  body .details-button {
-    font-size: 28px !important;
-    padding: 10px 12px;
+  body .dateTime-title,
+  body .dateTime-paragraph {
+    font-size: 44px !important;
   }
 
     body .dateTime-calendar {
@@ -382,7 +382,7 @@ body .details-composition {
     justify-content: center;
     align-items: center;
     height: 60vw;
-    width: 88vw;
+    width: 85vw;
   }
 
   body .dressCode-shape {
@@ -401,20 +401,20 @@ body .details-composition {
     padding-bottom: 20px;
   }
 
-  body .section-paragraph,
-  body .introduction-paragraph {
-    max-width: 98vw;
+  body .section-location,
+  body .section-dressCode {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   body .section-details {
     max-width: 98vw;
     padding: 0 2vw;
   }
-
-  body .section-location,
-  body .section-dressCode {
-    margin-bottom: 20px;
-    margin-top: 20px;
+  
+  body .details-button {
+    font-size: 28px !important;
+    padding: 10px 12px;
   }
 
   body .details-composition {
