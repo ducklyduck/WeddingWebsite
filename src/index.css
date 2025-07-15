@@ -233,11 +233,12 @@ body .dateTime-paragraph {
   justify-self: center;
 
   /* Box Model */
-  /* max-width: 660px; */
+  margin-top: 0;
+  margin-bottom: 24px;
 
   /* Typography */
   font-size: 54px;
-  color: #6c68ad;
+  color: #44426c;
 }
 
 body .dateTime-calendar {
@@ -251,9 +252,8 @@ body .dateTime-calendar {
   /* Display and Visibility */
   display: flex;
   justify-content: center;
-  background: 
-    /* linear-gradient(to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 15%, rgba(245, 245, 245, 0.3) 35%, rgba(245, 245, 245, 0.1) 50%, rgba(245, 245, 245, 0.3) 70%, rgba(245, 245, 245, 0.6) 85%, rgba(245, 245, 245, 0.9) 100%), */
-    url(/src/assets/calendar.png) center/cover no-repeat;
+  background: url(/src/assets/calendar.png) center no-repeat;
+  background-size: contain;
 }
 
 /* DRESSCODE */
