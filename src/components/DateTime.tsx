@@ -8,7 +8,7 @@ function DateTime() {
         Ждём вас
       </Typography.Title>
       <Typography.Paragraph className='dateTime-paragraph section-paragraph' >
-        15:30
+        15 августа в 15:30
       </Typography.Paragraph>
       <Typography.Title className="section-title" >
         Август

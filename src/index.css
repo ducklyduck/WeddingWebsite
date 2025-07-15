@@ -220,7 +220,7 @@ body .section-dateTime {
 body .dateTime-title {
   /* Box Model */
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 
   /* Typography */
   font-size: 48px;
@@ -236,7 +236,7 @@ body .dateTime-paragraph {
   /* max-width: 660px; */
 
   /* Typography */
-  font-size: 32px;
+  font-size: 48px;
   color: #44426c;
 }
 
@@ -246,7 +246,7 @@ body .dateTime-calendar {
 
   /* Box Model */
   height: 400px;
-  width: 600px;
+  width: 90vw;
 
   /* Display and Visibility */
   display: flex;
@@ -330,7 +330,6 @@ body .details-composition {
 
   /* Background */
   background:
-    /* linear-gradient( to top, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.6) 15%, rgba(245, 245, 245, 0.3) 35%, rgba(245, 245, 245, 0.1) 50%, rgba(245, 245, 245, 0.3) 70%, rgba(245, 245, 245, 0.6) 85%, rgba(245, 245, 245, 0.9) 100%), */
     url(/src/assets/heart-composition_BW.png) center/cover no-repeat;
   /* filter: grayscale(0.9) saturate(1.9); */
 }
@@ -378,6 +377,14 @@ body .details-composition {
     padding: 10px 12px;
   }
 
+    body .dateTime-calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vw;
+    width: 90vw;
+  }
+
   body .dressCode-shape {
     width: 56px;
     height: 56px;
@@ -415,7 +422,7 @@ body .details-composition {
     justify-content: center;
     align-items: center;
     height: 60vw;
-    width: 85vw;
+    width: 90vw;
   }
 
 }
