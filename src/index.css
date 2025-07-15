@@ -246,7 +246,7 @@ body .dateTime-calendar {
 
   /* Box Model */
   height: 400px;
-  width: 90vw;
+  width: 700px;
 
   /* Display and Visibility */
   display: flex;
@@ -382,7 +382,7 @@ body .details-composition {
     justify-content: center;
     align-items: center;
     height: 60vw;
-    width: 90vw;
+    width: 88vw;
   }
 
   body .dressCode-shape {
